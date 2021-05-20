@@ -1,0 +1,145 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    <!--color: #191970;-->
+    color: #354052;
+    font-family: Georgia, serif;
+    font-weight: 300;
+    background:url('../pictures/bg-body.png') rgba(255, 255, 255, 0.911);
+}
+.logout {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 10px;
+    color: #354052;
+}
+.wrong {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 10px;
+    color: #354052;
+}
+
+p {
+    color: #354052;
+}
+
+#login-box
+{
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 600px;
+    background: url('../pictures/bg-menu.jpg') rgba(255, 255, 255, 0.39);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.39);
+    background-size: cover;
+    background-position: center;
+}
+
+h1
+{
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: Georgia, serif;
+    color: #35404E;
+
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #696969;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+    background: #C0C0C0;
+    transition: 0.5s ease;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.right-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-color:  rgba(255, 255, 255, 0.39);
+    background-size: cover;
+    background-position: center;
+}
+
+.or
+{
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #354052;
+}
+.w3-allerta
+{
+    font-family: Georgia, serif;
+    font-weight: 400;
+}
